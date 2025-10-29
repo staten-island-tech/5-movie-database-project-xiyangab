@@ -5,8 +5,8 @@ movies = open("./movies.json", encoding="utf8")
 data = json.load(movies)
 
 # file one
-""" for t in data:
-    print(t['title']) """
+for t in data:
+    print(t['title'])
 
 #file two
 """ def year(a):
@@ -37,8 +37,8 @@ year(2023) """
 movie('Migration') """
 
 #file six
-def genre(g):
+""" def genre(g):
     for a in data:
         if g in a['genres']:
             print(a['title'])
-genre("Thriller")
+genre("Comedy") """
